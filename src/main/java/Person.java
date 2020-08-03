@@ -12,21 +12,21 @@ public class Person {
         }
 
         public String Hello(){
-            String something="";
+            String holder="";
 
 
             for (int i=0;i<interests.length;i++){
-                something+=interests[i];
+                holder+=interests[i];
                 if (i<interests.length-2){
-                    something+=", ";
+                    holder+=", ";
                 }
                 else if (i==interests.length-2){
-                    something+=" and ";
+                    holder+=" and ";
 
                     for (int j=0;j==name.length();j++){
-                        something+=name;
+                        holder+=name;
                         if (j==name.length()+1){
-                            something+=" is";
+                            holder+=" is";
                         }
 
                     }
